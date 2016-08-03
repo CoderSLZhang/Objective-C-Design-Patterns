@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3A41D51D3EF00CCDD8D /* Undergraduate.m */; };
+		F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3A71D51D49F00CCDD8D /* Volenteer.m */; };
+		F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3AE1D51D5A300CCDD8D /* UndergraduateFactory.m */; };
+		F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3B11D51D67600CCDD8D /* VolenteerFactory.m */; };
+		F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3B41D51D75C00CCDD8D /* FactoryMethodClient.m */; };
 		F9D68C201D506D44002E60A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C1F1D506D44002E60A0 /* main.m */; };
 		F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C221D506D44002E60A0 /* AppDelegate.m */; };
 		F9D68C261D506D44002E60A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C251D506D44002E60A0 /* ViewController.m */; };
@@ -23,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F90EB3A21D51D3AA00CCDD8D /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
+		F90EB3A31D51D3EF00CCDD8D /* Undergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
+		F90EB3A41D51D3EF00CCDD8D /* Undergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
+		F90EB3A61D51D49F00CCDD8D /* Volenteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volenteer.h; sourceTree = "<group>"; };
+		F90EB3A71D51D49F00CCDD8D /* Volenteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volenteer.m; sourceTree = "<group>"; };
+		F90EB3AC1D51D55700CCDD8D /* LeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		F90EB3AD1D51D5A300CCDD8D /* UndergraduateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndergraduateFactory.h; sourceTree = "<group>"; };
+		F90EB3AE1D51D5A300CCDD8D /* UndergraduateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndergraduateFactory.m; sourceTree = "<group>"; };
+		F90EB3B01D51D67600CCDD8D /* VolenteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolenteerFactory.h; sourceTree = "<group>"; };
+		F90EB3B11D51D67600CCDD8D /* VolenteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolenteerFactory.m; sourceTree = "<group>"; };
+		F90EB3B31D51D75C00CCDD8D /* FactoryMethodClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodClient.h; sourceTree = "<group>"; };
+		F90EB3B41D51D75C00CCDD8D /* FactoryMethodClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodClient.m; sourceTree = "<group>"; };
 		F9D68C1B1D506D44002E60A0 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D68C1F1D506D44002E60A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9D68C211D506D44002E60A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F90EB38C1D51D09700CCDD8D /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F90EB3A21D51D3AA00CCDD8D /* LeiFeng.h */,
+				F90EB3A31D51D3EF00CCDD8D /* Undergraduate.h */,
+				F90EB3A41D51D3EF00CCDD8D /* Undergraduate.m */,
+				F90EB3A61D51D49F00CCDD8D /* Volenteer.h */,
+				F90EB3A71D51D49F00CCDD8D /* Volenteer.m */,
+				F90EB3AC1D51D55700CCDD8D /* LeiFengFactory.h */,
+				F90EB3AD1D51D5A300CCDD8D /* UndergraduateFactory.h */,
+				F90EB3AE1D51D5A300CCDD8D /* UndergraduateFactory.m */,
+				F90EB3B01D51D67600CCDD8D /* VolenteerFactory.h */,
+				F90EB3B11D51D67600CCDD8D /* VolenteerFactory.m */,
+				F90EB3B31D51D75C00CCDD8D /* FactoryMethodClient.h */,
+				F90EB3B41D51D75C00CCDD8D /* FactoryMethodClient.m */,
+			);
+			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
 		F9D68C121D506D44002E60A0 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F9D68C351D506D55002E60A0 /* SampleFactory */,
+				F90EB38C1D51D09700CCDD8D /* FactoryMethod */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -193,14 +230,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D68C411D50706A002E60A0 /* OperationMul.m in Sources */,
+				F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */,
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
+				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
+				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
 				F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */,
 				F9D68C201D506D44002E60A0 /* main.m in Sources */,
 				F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */,
 				F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */,
+				F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */,
 				F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
+				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +394,7 @@
 				F9D68C341D506D44002E60A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
