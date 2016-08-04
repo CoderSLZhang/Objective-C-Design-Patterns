@@ -34,6 +34,7 @@
 		F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C431D5070AD002E60A0 /* OperationDiv.m */; };
 		F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C461D507126002E60A0 /* OperationFactory.m */; };
 		F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */; };
+		F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488311D52E09E0029EFB9 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,8 @@
 		F9D68C461D507126002E60A0 /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
 		F9D68C481D50737C002E60A0 /* SampleFactroyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFactroyClient.h; sourceTree = "<group>"; };
 		F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFactroyClient.m; sourceTree = "<group>"; };
+		F9F488301D52E09E0029EFB9 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		F9F488311D52E09E0029EFB9 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,7 @@
 				F90EB38C1D51D09700CCDD8D /* FactoryMethod */,
 				F90EB3B61D51E53F00CCDD8D /* AbstractFactoryMethod */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
+				F9F4882F1D52E0830029EFB9 /* Singleton */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";
@@ -216,6 +220,15 @@
 				F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */,
 			);
 			name = SampleFactory;
+			sourceTree = "<group>";
+		};
+		F9F4882F1D52E0830029EFB9 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				F9F488301D52E09E0029EFB9 /* Singleton.h */,
+				F9F488311D52E09E0029EFB9 /* Singleton.m */,
+			);
+			name = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +310,7 @@
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
 				F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */,
 				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
+				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
 				F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
 				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
