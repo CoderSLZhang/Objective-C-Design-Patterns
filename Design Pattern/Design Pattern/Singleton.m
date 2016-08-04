@@ -20,4 +20,15 @@
     return singleton;
 }
 
+//+ (instancetype)shareInstance {
+//    static Singleton *singleton = nil;
+//    @synchronized (self) {
+//        if (!singleton) {
+//            singleton = [[Singleton alloc] init];
+//        }
+//    }
+//    
+//    return singleton;
+//}
+
 @end

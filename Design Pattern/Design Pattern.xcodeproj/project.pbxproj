@@ -35,6 +35,9 @@
 		F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C461D507126002E60A0 /* OperationFactory.m */; };
 		F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */; };
 		F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488311D52E09E0029EFB9 /* Singleton.m */; };
+		F9F488361D53163B0029EFB9 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488351D53163B0029EFB9 /* WorkExperience.m */; };
+		F9F488391D5317F80029EFB9 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488381D5317F80029EFB9 /* Resume.m */; };
+		F9F4883C1D531B030029EFB9 /* ProtoTypeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F4883B1D531B030029EFB9 /* ProtoTypeClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +100,12 @@
 		F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFactroyClient.m; sourceTree = "<group>"; };
 		F9F488301D52E09E0029EFB9 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		F9F488311D52E09E0029EFB9 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		F9F488341D53163B0029EFB9 /* WorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
+		F9F488351D53163B0029EFB9 /* WorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkExperience.m; sourceTree = "<group>"; };
+		F9F488371D5317F80029EFB9 /* Resume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resume.h; sourceTree = "<group>"; };
+		F9F488381D5317F80029EFB9 /* Resume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resume.m; sourceTree = "<group>"; };
+		F9F4883A1D531B030029EFB9 /* ProtoTypeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoTypeClient.h; sourceTree = "<group>"; };
+		F9F4883B1D531B030029EFB9 /* ProtoTypeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtoTypeClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +190,7 @@
 				F90EB3B61D51E53F00CCDD8D /* AbstractFactoryMethod */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 				F9F4882F1D52E0830029EFB9 /* Singleton */,
+				F9F488331D5315B40029EFB9 /* ProtoType */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";
@@ -229,6 +239,19 @@
 				F9F488311D52E09E0029EFB9 /* Singleton.m */,
 			);
 			name = Singleton;
+			sourceTree = "<group>";
+		};
+		F9F488331D5315B40029EFB9 /* ProtoType */ = {
+			isa = PBXGroup;
+			children = (
+				F9F488341D53163B0029EFB9 /* WorkExperience.h */,
+				F9F488351D53163B0029EFB9 /* WorkExperience.m */,
+				F9F488371D5317F80029EFB9 /* Resume.h */,
+				F9F488381D5317F80029EFB9 /* Resume.m */,
+				F9F4883A1D531B030029EFB9 /* ProtoTypeClient.h */,
+				F9F4883B1D531B030029EFB9 /* ProtoTypeClient.m */,
+			);
+			name = ProtoType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +333,9 @@
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
 				F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */,
 				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
+				F9F4883C1D531B030029EFB9 /* ProtoTypeClient.m in Sources */,
 				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
+				F9F488361D53163B0029EFB9 /* WorkExperience.m in Sources */,
 				F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
 				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
@@ -325,6 +350,7 @@
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
+				F9F488391D5317F80029EFB9 /* Resume.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
