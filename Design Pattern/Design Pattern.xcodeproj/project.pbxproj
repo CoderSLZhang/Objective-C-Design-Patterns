@@ -12,6 +12,15 @@
 		F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3AE1D51D5A300CCDD8D /* UndergraduateFactory.m */; };
 		F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3B11D51D67600CCDD8D /* VolenteerFactory.m */; };
 		F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3B41D51D75C00CCDD8D /* FactoryMethodClient.m */; };
+		F90EB3BB1D51E69600CCDD8D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3BA1D51E69600CCDD8D /* User.m */; };
+		F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3C01D51E6B300CCDD8D /* Department.m */; };
+		F90EB3C51D51E7FA00CCDD8D /* SqlServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3C41D51E7FA00CCDD8D /* SqlServerUser.m */; };
+		F90EB3C81D51E82100CCDD8D /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3C71D51E82100CCDD8D /* AccessUser.m */; };
+		F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3CA1D51E93D00CCDD8D /* SqlServerDepartment.m */; };
+		F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3CD1D51E94C00CCDD8D /* AccessDepartment.m */; };
+		F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D01D51EA8F00CCDD8D /* SqlServerFactory.m */; };
+		F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */; };
+		F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D61D51ED4900CCDD8D /* DataAccess.m */; };
 		F9D68C201D506D44002E60A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C1F1D506D44002E60A0 /* main.m */; };
 		F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C221D506D44002E60A0 /* AppDelegate.m */; };
 		F9D68C261D506D44002E60A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C251D506D44002E60A0 /* ViewController.m */; };
@@ -40,6 +49,27 @@
 		F90EB3B11D51D67600CCDD8D /* VolenteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolenteerFactory.m; sourceTree = "<group>"; };
 		F90EB3B31D51D75C00CCDD8D /* FactoryMethodClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodClient.h; sourceTree = "<group>"; };
 		F90EB3B41D51D75C00CCDD8D /* FactoryMethodClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodClient.m; sourceTree = "<group>"; };
+		F90EB3B71D51E5F100CCDD8D /* IFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFactory.h; sourceTree = "<group>"; };
+		F90EB3B81D51E61B00CCDD8D /* IUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUser.h; sourceTree = "<group>"; };
+		F90EB3B91D51E69600CCDD8D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F90EB3BA1D51E69600CCDD8D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F90EB3BF1D51E6B300CCDD8D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		F90EB3C01D51E6B300CCDD8D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		F90EB3C21D51E75E00CCDD8D /* IDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDepartment.h; sourceTree = "<group>"; };
+		F90EB3C31D51E7FA00CCDD8D /* SqlServerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlServerUser.h; sourceTree = "<group>"; };
+		F90EB3C41D51E7FA00CCDD8D /* SqlServerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlServerUser.m; sourceTree = "<group>"; };
+		F90EB3C61D51E82100CCDD8D /* AccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
+		F90EB3C71D51E82100CCDD8D /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
+		F90EB3C91D51E93D00CCDD8D /* SqlServerDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlServerDepartment.h; sourceTree = "<group>"; };
+		F90EB3CA1D51E93D00CCDD8D /* SqlServerDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlServerDepartment.m; sourceTree = "<group>"; };
+		F90EB3CC1D51E94C00CCDD8D /* AccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
+		F90EB3CD1D51E94C00CCDD8D /* AccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
+		F90EB3CF1D51EA8F00CCDD8D /* SqlServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlServerFactory.h; sourceTree = "<group>"; };
+		F90EB3D01D51EA8F00CCDD8D /* SqlServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlServerFactory.m; sourceTree = "<group>"; };
+		F90EB3D21D51EA9B00CCDD8D /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
+		F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
+		F90EB3D51D51ED4900CCDD8D /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
+		F90EB3D61D51ED4900CCDD8D /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
 		F9D68C1B1D506D44002E60A0 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D68C1F1D506D44002E60A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9D68C211D506D44002E60A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +126,34 @@
 			name = FactoryMethod;
 			sourceTree = "<group>";
 		};
+		F90EB3B61D51E53F00CCDD8D /* AbstractFactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F90EB3B91D51E69600CCDD8D /* User.h */,
+				F90EB3BA1D51E69600CCDD8D /* User.m */,
+				F90EB3BF1D51E6B300CCDD8D /* Department.h */,
+				F90EB3C01D51E6B300CCDD8D /* Department.m */,
+				F90EB3B71D51E5F100CCDD8D /* IFactory.h */,
+				F90EB3B81D51E61B00CCDD8D /* IUser.h */,
+				F90EB3C21D51E75E00CCDD8D /* IDepartment.h */,
+				F90EB3C31D51E7FA00CCDD8D /* SqlServerUser.h */,
+				F90EB3C41D51E7FA00CCDD8D /* SqlServerUser.m */,
+				F90EB3C61D51E82100CCDD8D /* AccessUser.h */,
+				F90EB3C71D51E82100CCDD8D /* AccessUser.m */,
+				F90EB3C91D51E93D00CCDD8D /* SqlServerDepartment.h */,
+				F90EB3CA1D51E93D00CCDD8D /* SqlServerDepartment.m */,
+				F90EB3CC1D51E94C00CCDD8D /* AccessDepartment.h */,
+				F90EB3CD1D51E94C00CCDD8D /* AccessDepartment.m */,
+				F90EB3CF1D51EA8F00CCDD8D /* SqlServerFactory.h */,
+				F90EB3D01D51EA8F00CCDD8D /* SqlServerFactory.m */,
+				F90EB3D21D51EA9B00CCDD8D /* AccessFactory.h */,
+				F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */,
+				F90EB3D51D51ED4900CCDD8D /* DataAccess.h */,
+				F90EB3D61D51ED4900CCDD8D /* DataAccess.m */,
+			);
+			name = AbstractFactoryMethod;
+			sourceTree = "<group>";
+		};
 		F9D68C121D506D44002E60A0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +175,7 @@
 			children = (
 				F9D68C351D506D55002E60A0 /* SampleFactory */,
 				F90EB38C1D51D09700CCDD8D /* FactoryMethod */,
+				F90EB3B61D51E53F00CCDD8D /* AbstractFactoryMethod */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -229,18 +288,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90EB3BB1D51E69600CCDD8D /* User.m in Sources */,
 				F9D68C411D50706A002E60A0 /* OperationMul.m in Sources */,
 				F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */,
+				F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */,
+				F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */,
+				F90EB3C81D51E82100CCDD8D /* AccessUser.m in Sources */,
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
+				F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */,
 				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
+				F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
 				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
 				F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */,
 				F9D68C201D506D44002E60A0 /* main.m in Sources */,
+				F90EB3C51D51E7FA00CCDD8D /* SqlServerUser.m in Sources */,
 				F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */,
 				F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */,
 				F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */,
+				F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */,
 				F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */,
+				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
