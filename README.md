@@ -6,3 +6,4 @@
 - 3. Abstract Factory 
 - 4. Singleton
 - 5. ProtoType
+- 6. Builder
