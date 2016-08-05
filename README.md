@@ -7,3 +7,4 @@
 - 4. Singleton
 - 5. ProtoType
 - 6. Builder
+- 7. Adapter
