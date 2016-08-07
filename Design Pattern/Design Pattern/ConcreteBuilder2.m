@@ -17,6 +17,15 @@
 
 @implementation ConcreteBuilder2
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _product = [[Product alloc] init];
+    }
+    
+    return self;
+}
+
 - (void)buildPartA {
     [self.product addPart:@"partX"];
 }

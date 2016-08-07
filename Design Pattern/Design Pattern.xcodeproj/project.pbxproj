@@ -252,8 +252,8 @@
 				F9F4882F1D52E0830029EFB9 /* Singleton */,
 				F9F488331D5315B40029EFB9 /* ProtoType */,
 				F96F125D1D542A8C0083195D /* Builder */,
-				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 				F96F126E1D547B5F0083195D /* Adapter */,
+				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";

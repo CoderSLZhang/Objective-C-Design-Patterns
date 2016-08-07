@@ -8,11 +8,13 @@
 
 #import "AdapterClient.h"
 #import "Adapter.h"
+#import "Adaptee.h"
 
-@implementation AdapterClient
+@implementation AdapterClient;
 
-- (void)useAdapter {
-    Adapter *adapter = [[Adapter alloc] init];
+- (void)userAdapter {
+    Adaptee *adaptee = [[Adaptee alloc] init];
+    Adapter *adapter = [[Adapter alloc] initWithAdaptee:adaptee];
     [adapter request];
 }
 

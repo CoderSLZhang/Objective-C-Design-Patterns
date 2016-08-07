@@ -17,10 +17,10 @@
 
 @implementation Adapter
 
-- (instancetype)init {
+- (instancetype)initWithAdaptee:(Adaptee *)adaptee {
     self = [super init];
     if (self) {
-        _adaptee = [[Adaptee alloc] init];
+        _adaptee = adaptee;
     }
     
     return self;

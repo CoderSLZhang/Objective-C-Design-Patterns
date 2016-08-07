@@ -8,7 +8,11 @@
 
 #import "Target.h"
 
+@class Adaptee;
+
 @interface Adapter : Target
+
+- (instancetype)initWithAdaptee:(Adaptee *)adaptee;
 
 - (void)request;
 
