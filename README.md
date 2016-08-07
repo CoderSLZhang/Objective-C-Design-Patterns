@@ -8,3 +8,4 @@
 - 5. ProtoType
 - 6. Builder
 - 7. Adapter
+- 8. Decorator
