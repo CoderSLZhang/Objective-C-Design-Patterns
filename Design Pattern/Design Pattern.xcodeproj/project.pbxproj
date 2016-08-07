@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9083EC61D56D35F007A5F0F /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */; };
+		F9083EC91D56D3AE007A5F0F /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083EC81D56D3AE007A5F0F /* Decorator.m */; };
+		F9083ECC1D56D4A8007A5F0F /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083ECB1D56D4A8007A5F0F /* ConcreteDecoratorA.m */; };
+		F9083ECF1D56D51F007A5F0F /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083ECE1D56D51F007A5F0F /* ConcreteDecoratorB.m */; };
+		F9083ED21D56D585007A5F0F /* DecoratorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083ED11D56D585007A5F0F /* DecoratorClient.m */; };
 		F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3A41D51D3EF00CCDD8D /* Undergraduate.m */; };
 		F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3A71D51D49F00CCDD8D /* Volenteer.m */; };
 		F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3AE1D51D5A300CCDD8D /* UndergraduateFactory.m */; };
@@ -50,6 +55,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9083EC31D56D325007A5F0F /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		F9083EC41D56D35F007A5F0F /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		F9083EC71D56D3AE007A5F0F /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		F9083EC81D56D3AE007A5F0F /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		F9083ECA1D56D4A8007A5F0F /* ConcreteDecoratorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorA.h; sourceTree = "<group>"; };
+		F9083ECB1D56D4A8007A5F0F /* ConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorA.m; sourceTree = "<group>"; };
+		F9083ECD1D56D51F007A5F0F /* ConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorB.h; sourceTree = "<group>"; };
+		F9083ECE1D56D51F007A5F0F /* ConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorB.m; sourceTree = "<group>"; };
+		F9083ED01D56D585007A5F0F /* DecoratorClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorClient.h; sourceTree = "<group>"; };
+		F9083ED11D56D585007A5F0F /* DecoratorClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorClient.m; sourceTree = "<group>"; };
 		F90EB3A21D51D3AA00CCDD8D /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
 		F90EB3A31D51D3EF00CCDD8D /* Undergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
 		F90EB3A41D51D3EF00CCDD8D /* Undergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
@@ -147,6 +163,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9083EC21D56D2B0007A5F0F /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				F9083EC31D56D325007A5F0F /* Component.h */,
+				F9083EC41D56D35F007A5F0F /* ConcreteComponent.h */,
+				F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */,
+				F9083EC71D56D3AE007A5F0F /* Decorator.h */,
+				F9083EC81D56D3AE007A5F0F /* Decorator.m */,
+				F9083ECA1D56D4A8007A5F0F /* ConcreteDecoratorA.h */,
+				F9083ECB1D56D4A8007A5F0F /* ConcreteDecoratorA.m */,
+				F9083ECD1D56D51F007A5F0F /* ConcreteDecoratorB.h */,
+				F9083ECE1D56D51F007A5F0F /* ConcreteDecoratorB.m */,
+				F9083ED01D56D585007A5F0F /* DecoratorClient.h */,
+				F9083ED11D56D585007A5F0F /* DecoratorClient.m */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
 		F90EB38C1D51D09700CCDD8D /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +287,7 @@
 				F9F488331D5315B40029EFB9 /* ProtoType */,
 				F96F125D1D542A8C0083195D /* Builder */,
 				F96F126E1D547B5F0083195D /* Adapter */,
+				F9083EC21D56D2B0007A5F0F /* Decorator */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -398,6 +433,7 @@
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
 				F96F127A1D547C230083195D /* Adapter.m in Sources */,
 				F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */,
+				F9083EC91D56D3AE007A5F0F /* Decorator.m in Sources */,
 				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
 				F9F4883C1D531B030029EFB9 /* ProtoTypeClient.m in Sources */,
 				F96F12711D547B950083195D /* Target.m in Sources */,
@@ -409,6 +445,7 @@
 				F96F12671D542D990083195D /* ConcreteBuilder2.m in Sources */,
 				F96F12741D547BD30083195D /* Adaptee.m in Sources */,
 				F96F12641D542C650083195D /* ConcreteBuilder1.m in Sources */,
+				F9083EC61D56D35F007A5F0F /* ConcreteComponent.m in Sources */,
 				F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */,
 				F9D68C201D506D44002E60A0 /* main.m in Sources */,
 				F90EB3C51D51E7FA00CCDD8D /* SqlServerUser.m in Sources */,
@@ -421,8 +458,11 @@
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
 				F96F126D1D542ECD0083195D /* BuilderClient.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
+				F9083ED21D56D585007A5F0F /* DecoratorClient.m in Sources */,
+				F9083ECF1D56D51F007A5F0F /* ConcreteDecoratorB.m in Sources */,
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
 				F9F488391D5317F80029EFB9 /* Resume.m in Sources */,
+				F9083ECC1D56D4A8007A5F0F /* ConcreteDecoratorA.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
