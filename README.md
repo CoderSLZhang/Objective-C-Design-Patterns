@@ -9,3 +9,5 @@
 - 6. Builder
 - 7. Adapter
 - 8. Decorator
+- 9. Bridge
+- 10.Facade
