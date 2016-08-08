@@ -26,6 +26,11 @@
 		F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D01D51EA8F00CCDD8D /* SqlServerFactory.m */; };
 		F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */; };
 		F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D61D51ED4900CCDD8D /* DataAccess.m */; };
+		F93160B31D58607400201B59 /* ConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = F93160B21D58607400201B59 /* ConcreteImplementorA.m */; };
+		F93160B61D5860E000201B59 /* ConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = F93160B51D5860E000201B59 /* ConcreteImplementorB.m */; };
+		F93160B91D58616E00201B59 /* Abstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F93160B81D58616E00201B59 /* Abstraction.m */; };
+		F93160BF1D58627800201B59 /* RefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F93160BE1D58627800201B59 /* RefinedAbstraction.m */; };
+		F93160C21D5862DA00201B59 /* BridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F93160C11D5862DA00201B59 /* BridgeClient.m */; };
 		F96F12601D542AD60083195D /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F125F1D542AD60083195D /* Product.m */; };
 		F96F12641D542C650083195D /* ConcreteBuilder1.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F12631D542C650083195D /* ConcreteBuilder1.m */; };
 		F96F12671D542D990083195D /* ConcreteBuilder2.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F12661D542D990083195D /* ConcreteBuilder2.m */; };
@@ -99,6 +104,17 @@
 		F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
 		F90EB3D51D51ED4900CCDD8D /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
 		F90EB3D61D51ED4900CCDD8D /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
+		F93160B01D58603500201B59 /* Implementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementor.h; sourceTree = "<group>"; };
+		F93160B11D58607400201B59 /* ConcreteImplementorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorA.h; sourceTree = "<group>"; };
+		F93160B21D58607400201B59 /* ConcreteImplementorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementorA.m; sourceTree = "<group>"; };
+		F93160B41D5860E000201B59 /* ConcreteImplementorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteImplementorB.h; sourceTree = "<group>"; };
+		F93160B51D5860E000201B59 /* ConcreteImplementorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteImplementorB.m; sourceTree = "<group>"; };
+		F93160B71D58616E00201B59 /* Abstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abstraction.h; sourceTree = "<group>"; };
+		F93160B81D58616E00201B59 /* Abstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abstraction.m; sourceTree = "<group>"; };
+		F93160BD1D58627800201B59 /* RefinedAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefinedAbstraction.h; sourceTree = "<group>"; };
+		F93160BE1D58627800201B59 /* RefinedAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefinedAbstraction.m; sourceTree = "<group>"; };
+		F93160C01D5862DA00201B59 /* BridgeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeClient.h; sourceTree = "<group>"; };
+		F93160C11D5862DA00201B59 /* BridgeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeClient.m; sourceTree = "<group>"; };
 		F96F125E1D542AD60083195D /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		F96F125F1D542AD60083195D /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		F96F12611D542BD90083195D /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
@@ -228,6 +244,24 @@
 			name = AbstractFactoryMethod;
 			sourceTree = "<group>";
 		};
+		F93160AF1D585FC600201B59 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				F93160B01D58603500201B59 /* Implementor.h */,
+				F93160B11D58607400201B59 /* ConcreteImplementorA.h */,
+				F93160B21D58607400201B59 /* ConcreteImplementorA.m */,
+				F93160B41D5860E000201B59 /* ConcreteImplementorB.h */,
+				F93160B51D5860E000201B59 /* ConcreteImplementorB.m */,
+				F93160B71D58616E00201B59 /* Abstraction.h */,
+				F93160B81D58616E00201B59 /* Abstraction.m */,
+				F93160BD1D58627800201B59 /* RefinedAbstraction.h */,
+				F93160BE1D58627800201B59 /* RefinedAbstraction.m */,
+				F93160C01D5862DA00201B59 /* BridgeClient.h */,
+				F93160C11D5862DA00201B59 /* BridgeClient.m */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
 		F96F125D1D542A8C0083195D /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +323,7 @@
 				F96F126E1D547B5F0083195D /* Adapter */,
 				F9083EC21D56D2B0007A5F0F /* Decorator */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
+				F93160AF1D585FC600201B59 /* Bridge */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";
@@ -424,7 +459,9 @@
 			files = (
 				F90EB3BB1D51E69600CCDD8D /* User.m in Sources */,
 				F96F126A1D542E3B0083195D /* Director.m in Sources */,
+				F93160B61D5860E000201B59 /* ConcreteImplementorB.m in Sources */,
 				F9D68C411D50706A002E60A0 /* OperationMul.m in Sources */,
+				F93160BF1D58627800201B59 /* RefinedAbstraction.m in Sources */,
 				F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */,
 				F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */,
 				F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */,
@@ -438,7 +475,9 @@
 				F9F4883C1D531B030029EFB9 /* ProtoTypeClient.m in Sources */,
 				F96F12711D547B950083195D /* Target.m in Sources */,
 				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
+				F93160B31D58607400201B59 /* ConcreteImplementorA.m in Sources */,
 				F9F488361D53163B0029EFB9 /* WorkExperience.m in Sources */,
+				F93160B91D58616E00201B59 /* Abstraction.m in Sources */,
 				F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
 				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
@@ -458,6 +497,7 @@
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
 				F96F126D1D542ECD0083195D /* BuilderClient.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
+				F93160C21D5862DA00201B59 /* BridgeClient.m in Sources */,
 				F9083ED21D56D585007A5F0F /* DecoratorClient.m in Sources */,
 				F9083ECF1D56D51F007A5F0F /* ConcreteDecoratorB.m in Sources */,
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
