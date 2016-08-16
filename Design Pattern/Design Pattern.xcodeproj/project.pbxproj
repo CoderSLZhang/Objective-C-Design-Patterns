@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F907FAAB1D62F0CA0068004E /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = F907FAAA1D62F0CA0068004E /* Component.m */; };
+		F907FAB11D62F4B20068004E /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = F907FAB01D62F4B20068004E /* Leaf.m */; };
+		F907FAB71D62F6DC0068004E /* Composite.m in Sources */ = {isa = PBXBuildFile; fileRef = F907FAB61D62F6DC0068004E /* Composite.m */; };
+		F907FABA1D62F7F40068004E /* CompositeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F907FAB91D62F7F40068004E /* CompositeClient.m */; };
 		F9083EC61D56D35F007A5F0F /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */; };
 		F9083EC91D56D3AE007A5F0F /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083EC81D56D3AE007A5F0F /* Decorator.m */; };
 		F9083ECC1D56D4A8007A5F0F /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = F9083ECB1D56D4A8007A5F0F /* ConcreteDecoratorA.m */; };
@@ -71,6 +75,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F907FAA91D62F0CA0068004E /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		F907FAAA1D62F0CA0068004E /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		F907FAAF1D62F4B20068004E /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
+		F907FAB01D62F4B20068004E /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
+		F907FAB51D62F6DC0068004E /* Composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
+		F907FAB61D62F6DC0068004E /* Composite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
+		F907FAB81D62F7F40068004E /* CompositeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeClient.h; sourceTree = "<group>"; };
+		F907FAB91D62F7F40068004E /* CompositeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeClient.m; sourceTree = "<group>"; };
 		F9083EC31D56D325007A5F0F /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		F9083EC41D56D35F007A5F0F /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
 		F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
@@ -331,6 +343,21 @@
 			name = Facade;
 			sourceTree = "<group>";
 		};
+		F96D2C531D62EF8900DC2AF1 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				F907FAA91D62F0CA0068004E /* Component.h */,
+				F907FAAA1D62F0CA0068004E /* Component.m */,
+				F907FAAF1D62F4B20068004E /* Leaf.h */,
+				F907FAB01D62F4B20068004E /* Leaf.m */,
+				F907FAB51D62F6DC0068004E /* Composite.h */,
+				F907FAB61D62F6DC0068004E /* Composite.m */,
+				F907FAB81D62F7F40068004E /* CompositeClient.h */,
+				F907FAB91D62F7F40068004E /* CompositeClient.m */,
+			);
+			name = Composite;
+			sourceTree = "<group>";
+		};
 		F96F125D1D542A8C0083195D /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,6 +421,7 @@
 				F93160AF1D585FC600201B59 /* Bridge */,
 				F93160C31D58853F00201B59 /* Facade */,
 				F92FD93F1D59D3E500D913E1 /* Strategy */,
+				F96D2C531D62EF8900DC2AF1 /* Composite */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -546,6 +574,7 @@
 				F93160CC1D58863600201B59 /* SubsystemC.m in Sources */,
 				F9F4883C1D531B030029EFB9 /* ProtoTypeClient.m in Sources */,
 				F92FD9451D59D4F000D913E1 /* ConcreteStrategyA.m in Sources */,
+				F907FAAB1D62F0CA0068004E /* Component.m in Sources */,
 				F96F12711D547B950083195D /* Target.m in Sources */,
 				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
 				F93160B31D58607400201B59 /* ConcreteImplementorA.m in Sources */,
@@ -561,17 +590,20 @@
 				F96F12641D542C650083195D /* ConcreteBuilder1.m in Sources */,
 				F92FD94B1D59D59D00D913E1 /* ConcreteStrategyC.m in Sources */,
 				F9083EC61D56D35F007A5F0F /* ConcreteComponent.m in Sources */,
+				F907FABA1D62F7F40068004E /* CompositeClient.m in Sources */,
 				F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */,
 				F9D68C201D506D44002E60A0 /* main.m in Sources */,
 				F90EB3C51D51E7FA00CCDD8D /* SqlServerUser.m in Sources */,
 				F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */,
 				F92FD94E1D59D5DB00D913E1 /* Context.m in Sources */,
+				F907FAB71D62F6DC0068004E /* Composite.m in Sources */,
 				F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */,
 				F96F127D1D547CAC0083195D /* AdapterClient.m in Sources */,
 				F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */,
 				F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */,
 				F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */,
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
+				F907FAB11D62F4B20068004E /* Leaf.m in Sources */,
 				F96F126D1D542ECD0083195D /* BuilderClient.m in Sources */,
 				F92FD9511D59D6CA00D913E1 /* StrategyClient.m in Sources */,
 				F93160C61D58858F00201B59 /* SubsystemA.m in Sources */,

@@ -2,14 +2,20 @@
 //  Component.h
 //  Design Pattern
 //
-//  Created by zhangsl on 16/8/7.
+//  Created by zhangsl on 16/8/16.
 //  Copyright © 2016年 zhangsl. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@protocol Component <NSObject>
+@interface Component : NSObject
 
-- (void)operation;
+- (instancetype)initWithName:(NSString *)name;
+
+- (void)addComponent:(Component *)component;
+
+- (void)removeComponent:(Component *)component;
+
+- (void)displayOfDepth:(NSInteger)depth;
 
 @end
