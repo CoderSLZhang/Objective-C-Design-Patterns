@@ -68,6 +68,12 @@
 		F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C431D5070AD002E60A0 /* OperationDiv.m */; };
 		F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C461D507126002E60A0 /* OperationFactory.m */; };
 		F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */; };
+		F9DC978D1D66A4B400AE9C7B /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC978C1D66A4B400AE9C7B /* Configuration.m */; };
+		F9DC97901D66A50B00AE9C7B /* Flyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC978F1D66A50B00AE9C7B /* Flyweight.m */; };
+		F9DC97931D66A69100AE9C7B /* ConcreteFlyWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC97921D66A69100AE9C7B /* ConcreteFlyWeight.m */; };
+		F9DC97961D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC97951D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m */; };
+		F9DC97991D66AA8000AE9C7B /* FlyWeightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC97981D66AA8000AE9C7B /* FlyWeightFactory.m */; };
+		F9DC979C1D66ABFB00AE9C7B /* FlyweightClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC979B1D66ABFB00AE9C7B /* FlyweightClient.m */; };
 		F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488311D52E09E0029EFB9 /* Singleton.m */; };
 		F9F488361D53163B0029EFB9 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488351D53163B0029EFB9 /* WorkExperience.m */; };
 		F9F488391D5317F80029EFB9 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F488381D5317F80029EFB9 /* Resume.m */; };
@@ -203,6 +209,18 @@
 		F9D68C461D507126002E60A0 /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
 		F9D68C481D50737C002E60A0 /* SampleFactroyClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFactroyClient.h; sourceTree = "<group>"; };
 		F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFactroyClient.m; sourceTree = "<group>"; };
+		F9DC978B1D66A4B400AE9C7B /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		F9DC978C1D66A4B400AE9C7B /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		F9DC978E1D66A50B00AE9C7B /* Flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flyweight.h; sourceTree = "<group>"; };
+		F9DC978F1D66A50B00AE9C7B /* Flyweight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flyweight.m; sourceTree = "<group>"; };
+		F9DC97911D66A69100AE9C7B /* ConcreteFlyWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFlyWeight.h; sourceTree = "<group>"; };
+		F9DC97921D66A69100AE9C7B /* ConcreteFlyWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFlyWeight.m; sourceTree = "<group>"; };
+		F9DC97941D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsharedConcreteFlyWeight.h; sourceTree = "<group>"; };
+		F9DC97951D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnsharedConcreteFlyWeight.m; sourceTree = "<group>"; };
+		F9DC97971D66AA8000AE9C7B /* FlyWeightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyWeightFactory.h; sourceTree = "<group>"; };
+		F9DC97981D66AA8000AE9C7B /* FlyWeightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyWeightFactory.m; sourceTree = "<group>"; };
+		F9DC979A1D66ABFB00AE9C7B /* FlyweightClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightClient.h; sourceTree = "<group>"; };
+		F9DC979B1D66ABFB00AE9C7B /* FlyweightClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightClient.m; sourceTree = "<group>"; };
 		F9F488301D52E09E0029EFB9 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		F9F488311D52E09E0029EFB9 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		F9F488341D53163B0029EFB9 /* WorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
@@ -422,6 +440,7 @@
 				F93160C31D58853F00201B59 /* Facade */,
 				F92FD93F1D59D3E500D913E1 /* Strategy */,
 				F96D2C531D62EF8900DC2AF1 /* Composite */,
+				F9DC978A1D66A3DF00AE9C7B /* FlyWeight */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -462,6 +481,25 @@
 				F9D68C491D50737C002E60A0 /* SampleFactroyClient.m */,
 			);
 			name = SampleFactory;
+			sourceTree = "<group>";
+		};
+		F9DC978A1D66A3DF00AE9C7B /* FlyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC978B1D66A4B400AE9C7B /* Configuration.h */,
+				F9DC978C1D66A4B400AE9C7B /* Configuration.m */,
+				F9DC978E1D66A50B00AE9C7B /* Flyweight.h */,
+				F9DC978F1D66A50B00AE9C7B /* Flyweight.m */,
+				F9DC97911D66A69100AE9C7B /* ConcreteFlyWeight.h */,
+				F9DC97921D66A69100AE9C7B /* ConcreteFlyWeight.m */,
+				F9DC97941D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.h */,
+				F9DC97951D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m */,
+				F9DC97971D66AA8000AE9C7B /* FlyWeightFactory.h */,
+				F9DC97981D66AA8000AE9C7B /* FlyWeightFactory.m */,
+				F9DC979A1D66ABFB00AE9C7B /* FlyweightClient.h */,
+				F9DC979B1D66ABFB00AE9C7B /* FlyweightClient.m */,
+			);
+			name = FlyWeight;
 			sourceTree = "<group>";
 		};
 		F9F4882F1D52E0830029EFB9 /* Singleton */ = {
@@ -578,12 +616,16 @@
 				F96F12711D547B950083195D /* Target.m in Sources */,
 				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
 				F93160B31D58607400201B59 /* ConcreteImplementorA.m in Sources */,
+				F9DC97931D66A69100AE9C7B /* ConcreteFlyWeight.m in Sources */,
 				F93160D21D58875800201B59 /* FacadeClient.m in Sources */,
+				F9DC97961D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m in Sources */,
 				F9F488361D53163B0029EFB9 /* WorkExperience.m in Sources */,
 				F93160B91D58616E00201B59 /* Abstraction.m in Sources */,
+				F9DC97901D66A50B00AE9C7B /* Flyweight.m in Sources */,
 				F90EB3CB1D51E93D00CCDD8D /* SqlServerDepartment.m in Sources */,
 				F9D68C261D506D44002E60A0 /* ViewController.m in Sources */,
 				F90EB3A51D51D3EF00CCDD8D /* Undergraduate.m in Sources */,
+				F9DC978D1D66A4B400AE9C7B /* Configuration.m in Sources */,
 				F96F12671D542D990083195D /* ConcreteBuilder2.m in Sources */,
 				F96F12741D547BD30083195D /* Adaptee.m in Sources */,
 				F92FD9421D59D42500D913E1 /* Strategy.m in Sources */,
@@ -606,6 +648,7 @@
 				F907FAB11D62F4B20068004E /* Leaf.m in Sources */,
 				F96F126D1D542ECD0083195D /* BuilderClient.m in Sources */,
 				F92FD9511D59D6CA00D913E1 /* StrategyClient.m in Sources */,
+				F9DC979C1D66ABFB00AE9C7B /* FlyweightClient.m in Sources */,
 				F93160C61D58858F00201B59 /* SubsystemA.m in Sources */,
 				F9D68C381D506DB7002E60A0 /* Operation.m in Sources */,
 				F93160C21D5862DA00201B59 /* BridgeClient.m in Sources */,
@@ -616,6 +659,7 @@
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
 				F9F488391D5317F80029EFB9 /* Resume.m in Sources */,
 				F9083ECC1D56D4A8007A5F0F /* ConcreteDecoratorA.m in Sources */,
+				F9DC97991D66AA8000AE9C7B /* FlyWeightFactory.m in Sources */,
 				F92FD9481D59D52000D913E1 /* ConcreteStrategyB.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
 			);
