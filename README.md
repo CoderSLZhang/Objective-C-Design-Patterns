@@ -12,3 +12,4 @@
 - 9. Bridge
 - 10. Facade
 - 11. Composite
+- 12. FlyWeight
