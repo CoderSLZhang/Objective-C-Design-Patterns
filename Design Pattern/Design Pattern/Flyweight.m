@@ -19,7 +19,7 @@
     return self;
 }
 
-- (void)userConfig:(Configuration *)config {}
+- (void)useConfig:(Configuration *)config {}
 
 
 @end

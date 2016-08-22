@@ -10,7 +10,7 @@
 
 @implementation ConcreteFlyWeight
 
-- (void)userConfig:(Configuration *)config {
+- (void)useConfig:(Configuration *)config {
     NSLog(@"shareFlyWeight: %@, propertyA: %@, propertyB: %@",
           self.name, config.propertyA, config.propertyB);
 }

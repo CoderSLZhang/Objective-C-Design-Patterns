@@ -20,19 +20,19 @@
     Configuration *configA = [[Configuration alloc] init];
     configA.propertyA = @"1";
     configA.propertyB = @"2";
-    [flyweightA userConfig:configA];
+    [flyweightA useConfig:configA];
     
     Flyweight *flyweightB = [factory getFlyweightWithKey:@"flyweightB"];
     Configuration *configB = [[Configuration alloc] init];
     configB.propertyA = @"m";
     configB.propertyB = @"n";
-    [flyweightB userConfig:configB];
+    [flyweightB useConfig:configB];
     
     Flyweight *flyweightC = [factory getFlyweightWithKey:@"flyweightA"];
     Configuration *configC = [[Configuration alloc] init];
     configC.propertyA = @"x";
     configC.propertyB = @"y";
-    [flyweightC userConfig:configC];
+    [flyweightC useConfig:configC];
 }
 
 @end

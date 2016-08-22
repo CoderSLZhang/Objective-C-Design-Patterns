@@ -16,6 +16,6 @@
 
 - (instancetype)initWithName:(NSString *)name;
 
-- (void)userConfig:(Configuration *)config;
+- (void)useConfig:(Configuration *)config;
 
 @end
