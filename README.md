@@ -13,3 +13,6 @@
 - 10. Facade
 - 11. Composite
 - 12. FlyWeight
+- 13. Proxy
+- 14. Observer
+- 15. TemplateMethod
