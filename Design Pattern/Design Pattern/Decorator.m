@@ -10,7 +10,7 @@
 
 @implementation Decorator
 
-- (void)setComponent:(id<Component>)component {
+- (void)setComponent:(id<ComponentProtocol>)component {
     _component = component;
 }
 

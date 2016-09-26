@@ -11,6 +11,5 @@
 
 @interface UndergraduateFactory : NSObject <LeiFengFactory>
 
-+ (id<LeiFeng>)createLeiFeng;
 
 @end

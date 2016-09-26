@@ -11,6 +11,6 @@
 
 @protocol LeiFengFactory <NSObject>
 
-- (id<LeiFeng>)createLeiFeng;
++ (id<LeiFeng>)createLeiFeng;
 
 @end

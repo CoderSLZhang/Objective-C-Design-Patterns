@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Component.h"
+#import "ComponentProtocol.h"
 
-@interface ConcreteComponent : NSObject <Component>
+@interface ConcreteComponent : NSObject <ComponentProtocol>
 
 - (void)operation;
 

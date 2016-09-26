@@ -2,9 +2,10 @@
 //  Component.h
 //  Design Pattern
 //
-//  Created by zhangsl on 16/8/16.
+//  Created by zhangsl on 16/8/22.
 //  Copyright © 2016年 zhangsl. All rights reserved.
 //
+
 
 #import <Foundation/Foundation.h>
 

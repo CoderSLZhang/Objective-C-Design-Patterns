@@ -26,7 +26,7 @@
     [compY addComponent:[[Leaf alloc] initWithName:@"Leaf5"]];
     [compY addComponent:[[Leaf alloc] initWithName:@"Leaf6"]];
     [root addComponent:compY];
-    
+
     [root displayOfDepth:0];
 }
 

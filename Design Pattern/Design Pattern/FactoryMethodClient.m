@@ -8,11 +8,12 @@
 
 #import "FactoryMethodClient.h"
 #import "VolenteerFactory.h"
+#import "UndergraduateFactory.h"
 
 @implementation FactoryMethodClient
 
 - (void)useFactoryMethod {
-    id<LeiFeng> leiFeng1 = [VolenteerFactory createLeiFeng];
+    id<LeiFeng> leiFeng1 = [UndergraduateFactory createLeiFeng];
     [leiFeng1 sweep];
     [leiFeng1 wash];
     

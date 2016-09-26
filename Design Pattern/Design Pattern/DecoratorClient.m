@@ -14,7 +14,7 @@
 @implementation DecoratorClient
 
 - (void)userDecorator {
-    id<Component> component = [[ConcreteComponent alloc] init];
+    id<ComponentProtocol> component = [[ConcreteComponent alloc] init];
     ConcreteDecoratorA *decoratorA = [[ConcreteDecoratorA alloc] init];
     ConcreteDecoratorB *decoratorB = [[ConcreteDecoratorB alloc] init];
     

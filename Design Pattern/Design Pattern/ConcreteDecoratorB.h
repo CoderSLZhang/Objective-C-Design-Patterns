@@ -10,4 +10,6 @@
 
 @interface ConcreteDecoratorB : Decorator
 
+- (void)addedBehavior;
+
 @end

@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Component.h"
+#import "ComponentProtocol.h"
 
-@interface Decorator : NSObject <Component>
+@interface Decorator : NSObject <ComponentProtocol>
 
-@property (strong, nonatomic) id<Component> component;
+@property (strong, nonatomic) id<ComponentProtocol> component;
 
 - (void)operation;
 

@@ -11,6 +11,4 @@
 
 @interface VolenteerFactory : NSObject <LeiFengFactory>
 
-+ (id<LeiFeng>)createLeiFeng;
-
 @end

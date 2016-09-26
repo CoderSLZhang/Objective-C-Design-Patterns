@@ -30,6 +30,10 @@
 		F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D01D51EA8F00CCDD8D /* SqlServerFactory.m */; };
 		F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */; };
 		F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F90EB3D61D51ED4900CCDD8D /* DataAccess.m */; };
+		F925D2941D98B00F001C9894 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D2931D98B00F001C9894 /* AbstractClass.m */; };
+		F925D2971D98B029001C9894 /* ConcreteClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D2961D98B029001C9894 /* ConcreteClassA.m */; };
+		F925D29A1D98B036001C9894 /* ConcreteClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D2991D98B036001C9894 /* ConcreteClassB.m */; };
+		F925D29D1D98B1CF001C9894 /* TemplateClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D29C1D98B1CF001C9894 /* TemplateClient.m */; };
 		F92FD9421D59D42500D913E1 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9411D59D42500D913E1 /* Strategy.m */; };
 		F92FD9451D59D4F000D913E1 /* ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9441D59D4F000D913E1 /* ConcreteStrategyA.m */; };
 		F92FD9481D59D52000D913E1 /* ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9471D59D52000D913E1 /* ConcreteStrategyB.m */; };
@@ -55,6 +59,12 @@
 		F96F12741D547BD30083195D /* Adaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F12731D547BD30083195D /* Adaptee.m */; };
 		F96F127A1D547C230083195D /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F12791D547C230083195D /* Adapter.m */; };
 		F96F127D1D547CAC0083195D /* AdapterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F96F127C1D547CAC0083195D /* AdapterClient.m */; };
+		F994A6471D937B7F006E1DA6 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = F994A6461D937B7F006E1DA6 /* Subject.m */; };
+		F994A64A1D937BCC006E1DA6 /* RealSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = F994A6491D937BCC006E1DA6 /* RealSubject.m */; };
+		F994A64D1D937BF5006E1DA6 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F994A64C1D937BF5006E1DA6 /* Proxy.m */; };
+		F9B3F1841D94BE5600885336 /* AbstractSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3F1831D94BE5600885336 /* AbstractSubject.m */; };
+		F9B3F1881D94C0F000885336 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3F1871D94C0F000885336 /* ConcreteSubject.m */; };
+		F9B3F18B1D94C16300885336 /* ConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3F18A1D94C16300885336 /* ConcreteObserver.m */; };
 		F9D68C201D506D44002E60A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C1F1D506D44002E60A0 /* main.m */; };
 		F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C221D506D44002E60A0 /* AppDelegate.m */; };
 		F9D68C261D506D44002E60A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D68C251D506D44002E60A0 /* ViewController.m */; };
@@ -81,7 +91,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F907FAA91D62F0CA0068004E /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		F907FAAA1D62F0CA0068004E /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
 		F907FAAF1D62F4B20068004E /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leaf.h; sourceTree = "<group>"; };
 		F907FAB01D62F4B20068004E /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leaf.m; sourceTree = "<group>"; };
@@ -89,7 +98,7 @@
 		F907FAB61D62F6DC0068004E /* Composite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
 		F907FAB81D62F7F40068004E /* CompositeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeClient.h; sourceTree = "<group>"; };
 		F907FAB91D62F7F40068004E /* CompositeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeClient.m; sourceTree = "<group>"; };
-		F9083EC31D56D325007A5F0F /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		F9083EC31D56D325007A5F0F /* ComponentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentProtocol.h; sourceTree = "<group>"; };
 		F9083EC41D56D35F007A5F0F /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
 		F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
 		F9083EC71D56D3AE007A5F0F /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
@@ -133,6 +142,14 @@
 		F90EB3D31D51EA9B00CCDD8D /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
 		F90EB3D51D51ED4900CCDD8D /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
 		F90EB3D61D51ED4900CCDD8D /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
+		F925D2921D98B00F001C9894 /* AbstractClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
+		F925D2931D98B00F001C9894 /* AbstractClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
+		F925D2951D98B029001C9894 /* ConcreteClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteClassA.h; sourceTree = "<group>"; };
+		F925D2961D98B029001C9894 /* ConcreteClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteClassA.m; sourceTree = "<group>"; };
+		F925D2981D98B036001C9894 /* ConcreteClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteClassB.h; sourceTree = "<group>"; };
+		F925D2991D98B036001C9894 /* ConcreteClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteClassB.m; sourceTree = "<group>"; };
+		F925D29B1D98B1CF001C9894 /* TemplateClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateClient.h; sourceTree = "<group>"; };
+		F925D29C1D98B1CF001C9894 /* TemplateClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateClient.m; sourceTree = "<group>"; };
 		F92FD9401D59D42500D913E1 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
 		F92FD9411D59D42500D913E1 /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
 		F92FD9431D59D4F000D913E1 /* ConcreteStrategyA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStrategyA.h; sourceTree = "<group>"; };
@@ -185,6 +202,19 @@
 		F96F12791D547C230083195D /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
 		F96F127B1D547CAC0083195D /* AdapterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterClient.h; sourceTree = "<group>"; };
 		F96F127C1D547CAC0083195D /* AdapterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterClient.m; sourceTree = "<group>"; };
+		F994A6451D937B7F006E1DA6 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		F994A6461D937B7F006E1DA6 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		F994A6481D937BCC006E1DA6 /* RealSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealSubject.h; sourceTree = "<group>"; };
+		F994A6491D937BCC006E1DA6 /* RealSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealSubject.m; sourceTree = "<group>"; };
+		F994A64B1D937BF5006E1DA6 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		F994A64C1D937BF5006E1DA6 /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		F9B3F1821D94BE5600885336 /* AbstractSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSubject.h; sourceTree = "<group>"; };
+		F9B3F1831D94BE5600885336 /* AbstractSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractSubject.m; sourceTree = "<group>"; };
+		F9B3F1851D94BE8600885336 /* ObserverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverProtocol.h; sourceTree = "<group>"; };
+		F9B3F1861D94C0F000885336 /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
+		F9B3F1871D94C0F000885336 /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
+		F9B3F1891D94C16300885336 /* ConcreteObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserver.h; sourceTree = "<group>"; };
+		F9B3F18A1D94C16300885336 /* ConcreteObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserver.m; sourceTree = "<group>"; };
 		F9D68C1B1D506D44002E60A0 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D68C1F1D506D44002E60A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9D68C211D506D44002E60A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -229,6 +259,7 @@
 		F9F488381D5317F80029EFB9 /* Resume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resume.m; sourceTree = "<group>"; };
 		F9F4883A1D531B030029EFB9 /* ProtoTypeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoTypeClient.h; sourceTree = "<group>"; };
 		F9F4883B1D531B030029EFB9 /* ProtoTypeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtoTypeClient.m; sourceTree = "<group>"; };
+		F9FE8EDD1D6A8E2700B7FBB3 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +276,7 @@
 		F9083EC21D56D2B0007A5F0F /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
-				F9083EC31D56D325007A5F0F /* Component.h */,
+				F9083EC31D56D325007A5F0F /* ComponentProtocol.h */,
 				F9083EC41D56D35F007A5F0F /* ConcreteComponent.h */,
 				F9083EC51D56D35F007A5F0F /* ConcreteComponent.m */,
 				F9083EC71D56D3AE007A5F0F /* Decorator.h */,
@@ -307,6 +338,21 @@
 			name = AbstractFactoryMethod;
 			sourceTree = "<group>";
 		};
+		F925D2911D98AFD7001C9894 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F925D2921D98B00F001C9894 /* AbstractClass.h */,
+				F925D2931D98B00F001C9894 /* AbstractClass.m */,
+				F925D2951D98B029001C9894 /* ConcreteClassA.h */,
+				F925D2961D98B029001C9894 /* ConcreteClassA.m */,
+				F925D2981D98B036001C9894 /* ConcreteClassB.h */,
+				F925D2991D98B036001C9894 /* ConcreteClassB.m */,
+				F925D29B1D98B1CF001C9894 /* TemplateClient.h */,
+				F925D29C1D98B1CF001C9894 /* TemplateClient.m */,
+			);
+			name = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		F92FD93F1D59D3E500D913E1 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,7 +410,7 @@
 		F96D2C531D62EF8900DC2AF1 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
-				F907FAA91D62F0CA0068004E /* Component.h */,
+				F9FE8EDD1D6A8E2700B7FBB3 /* Component.h */,
 				F907FAAA1D62F0CA0068004E /* Component.m */,
 				F907FAAF1D62F4B20068004E /* Leaf.h */,
 				F907FAB01D62F4B20068004E /* Leaf.m */,
@@ -409,6 +455,33 @@
 			name = Adapter;
 			sourceTree = "<group>";
 		};
+		F994A6441D937A8D006E1DA6 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				F994A6451D937B7F006E1DA6 /* Subject.h */,
+				F994A6461D937B7F006E1DA6 /* Subject.m */,
+				F994A6481D937BCC006E1DA6 /* RealSubject.h */,
+				F994A6491D937BCC006E1DA6 /* RealSubject.m */,
+				F994A64B1D937BF5006E1DA6 /* Proxy.h */,
+				F994A64C1D937BF5006E1DA6 /* Proxy.m */,
+			);
+			name = Proxy;
+			sourceTree = "<group>";
+		};
+		F9B3F1811D94BD4500885336 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				F9B3F1821D94BE5600885336 /* AbstractSubject.h */,
+				F9B3F1831D94BE5600885336 /* AbstractSubject.m */,
+				F9B3F1851D94BE8600885336 /* ObserverProtocol.h */,
+				F9B3F1861D94C0F000885336 /* ConcreteSubject.h */,
+				F9B3F1871D94C0F000885336 /* ConcreteSubject.m */,
+				F9B3F1891D94C16300885336 /* ConcreteObserver.h */,
+				F9B3F18A1D94C16300885336 /* ConcreteObserver.m */,
+			);
+			name = Observer;
+			sourceTree = "<group>";
+		};
 		F9D68C121D506D44002E60A0 = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +514,9 @@
 				F92FD93F1D59D3E500D913E1 /* Strategy */,
 				F96D2C531D62EF8900DC2AF1 /* Composite */,
 				F9DC978A1D66A3DF00AE9C7B /* FlyWeight */,
+				F994A6441D937A8D006E1DA6 /* Proxy */,
+				F9B3F1811D94BD4500885336 /* Observer */,
+				F925D2911D98AFD7001C9894 /* TemplateMethod */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -555,6 +631,7 @@
 				TargetAttributes = {
 					F9D68C1A1D506D44002E60A0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BKAJ89SA22;
 					};
 				};
 			};
@@ -601,12 +678,17 @@
 				F93160BF1D58627800201B59 /* RefinedAbstraction.m in Sources */,
 				F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */,
 				F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */,
+				F9B3F1881D94C0F000885336 /* ConcreteSubject.m in Sources */,
+				F925D29A1D98B036001C9894 /* ConcreteClassB.m in Sources */,
 				F90EB3D41D51EA9B00CCDD8D /* AccessFactory.m in Sources */,
+				F925D2971D98B029001C9894 /* ConcreteClassA.m in Sources */,
 				F90EB3C81D51E82100CCDD8D /* AccessUser.m in Sources */,
 				F96F12601D542AD60083195D /* Product.m in Sources */,
 				F9D68C3E1D507046002E60A0 /* OperationSub.m in Sources */,
+				F994A6471D937B7F006E1DA6 /* Subject.m in Sources */,
 				F96F127A1D547C230083195D /* Adapter.m in Sources */,
 				F90EB3C11D51E6B300CCDD8D /* Department.m in Sources */,
+				F994A64D1D937BF5006E1DA6 /* Proxy.m in Sources */,
 				F9083EC91D56D3AE007A5F0F /* Decorator.m in Sources */,
 				F90EB3AF1D51D5A300CCDD8D /* UndergraduateFactory.m in Sources */,
 				F93160CC1D58863600201B59 /* SubsystemC.m in Sources */,
@@ -616,6 +698,7 @@
 				F96F12711D547B950083195D /* Target.m in Sources */,
 				F9F488321D52E09E0029EFB9 /* Singleton.m in Sources */,
 				F93160B31D58607400201B59 /* ConcreteImplementorA.m in Sources */,
+				F9B3F1841D94BE5600885336 /* AbstractSubject.m in Sources */,
 				F9DC97931D66A69100AE9C7B /* ConcreteFlyWeight.m in Sources */,
 				F93160D21D58875800201B59 /* FacadeClient.m in Sources */,
 				F9DC97961D66AA3700AE9C7B /* UnsharedConcreteFlyWeight.m in Sources */,
@@ -629,6 +712,7 @@
 				F96F12671D542D990083195D /* ConcreteBuilder2.m in Sources */,
 				F96F12741D547BD30083195D /* Adaptee.m in Sources */,
 				F92FD9421D59D42500D913E1 /* Strategy.m in Sources */,
+				F925D2941D98B00F001C9894 /* AbstractClass.m in Sources */,
 				F96F12641D542C650083195D /* ConcreteBuilder1.m in Sources */,
 				F92FD94B1D59D59D00D913E1 /* ConcreteStrategyC.m in Sources */,
 				F9083EC61D56D35F007A5F0F /* ConcreteComponent.m in Sources */,
@@ -642,6 +726,7 @@
 				F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */,
 				F96F127D1D547CAC0083195D /* AdapterClient.m in Sources */,
 				F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */,
+				F9B3F18B1D94C16300885336 /* ConcreteObserver.m in Sources */,
 				F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */,
 				F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */,
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
@@ -657,8 +742,10 @@
 				F9083ED21D56D585007A5F0F /* DecoratorClient.m in Sources */,
 				F9083ECF1D56D51F007A5F0F /* ConcreteDecoratorB.m in Sources */,
 				F90EB3A81D51D49F00CCDD8D /* Volenteer.m in Sources */,
+				F994A64A1D937BCC006E1DA6 /* RealSubject.m in Sources */,
 				F9F488391D5317F80029EFB9 /* Resume.m in Sources */,
 				F9083ECC1D56D4A8007A5F0F /* ConcreteDecoratorA.m in Sources */,
+				F925D29D1D98B1CF001C9894 /* TemplateClient.m in Sources */,
 				F9DC97991D66AA8000AE9C7B /* FlyWeightFactory.m in Sources */,
 				F92FD9481D59D52000D913E1 /* ConcreteStrategyB.m in Sources */,
 				F9D68C3B1D506FF1002E60A0 /* OperationAdd.m in Sources */,
@@ -775,6 +862,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKAJ89SA22;
 				INFOPLIST_FILE = "Design Pattern/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhangsl.Design-Pattern";
@@ -786,6 +874,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKAJ89SA22;
 				INFOPLIST_FILE = "Design Pattern/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhangsl.Design-Pattern";
