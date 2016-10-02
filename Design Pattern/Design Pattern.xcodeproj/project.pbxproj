@@ -34,6 +34,11 @@
 		F925D2971D98B029001C9894 /* ConcreteClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D2961D98B029001C9894 /* ConcreteClassA.m */; };
 		F925D29A1D98B036001C9894 /* ConcreteClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D2991D98B036001C9894 /* ConcreteClassB.m */; };
 		F925D29D1D98B1CF001C9894 /* TemplateClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F925D29C1D98B1CF001C9894 /* TemplateClient.m */; };
+		F92744691DA0A69700C8491D /* AbstractCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F92744681DA0A69700C8491D /* AbstractCommand.m */; };
+		F927446C1DA0A6DD00C8491D /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F927446B1DA0A6DD00C8491D /* Receiver.m */; };
+		F927446F1DA0A7C000C8491D /* ConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F927446E1DA0A7C000C8491D /* ConcreteCommand.m */; };
+		F92744721DA0A93E00C8491D /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = F92744711DA0A93E00C8491D /* Invoker.m */; };
+		F92744751DA0AA9B00C8491D /* CommandClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F92744741DA0AA9B00C8491D /* CommandClient.m */; };
 		F92FD9421D59D42500D913E1 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9411D59D42500D913E1 /* Strategy.m */; };
 		F92FD9451D59D4F000D913E1 /* ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9441D59D4F000D913E1 /* ConcreteStrategyA.m */; };
 		F92FD9481D59D52000D913E1 /* ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FD9471D59D52000D913E1 /* ConcreteStrategyB.m */; };
@@ -150,6 +155,16 @@
 		F925D2991D98B036001C9894 /* ConcreteClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteClassB.m; sourceTree = "<group>"; };
 		F925D29B1D98B1CF001C9894 /* TemplateClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateClient.h; sourceTree = "<group>"; };
 		F925D29C1D98B1CF001C9894 /* TemplateClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateClient.m; sourceTree = "<group>"; };
+		F92744671DA0A69700C8491D /* AbstractCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCommand.h; sourceTree = "<group>"; };
+		F92744681DA0A69700C8491D /* AbstractCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCommand.m; sourceTree = "<group>"; };
+		F927446A1DA0A6DD00C8491D /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		F927446B1DA0A6DD00C8491D /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		F927446D1DA0A7C000C8491D /* ConcreteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteCommand.h; sourceTree = "<group>"; };
+		F927446E1DA0A7C000C8491D /* ConcreteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteCommand.m; sourceTree = "<group>"; };
+		F92744701DA0A93E00C8491D /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		F92744711DA0A93E00C8491D /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		F92744731DA0AA9B00C8491D /* CommandClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandClient.h; sourceTree = "<group>"; };
+		F92744741DA0AA9B00C8491D /* CommandClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandClient.m; sourceTree = "<group>"; };
 		F92FD9401D59D42500D913E1 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
 		F92FD9411D59D42500D913E1 /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
 		F92FD9431D59D4F000D913E1 /* ConcreteStrategyA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteStrategyA.h; sourceTree = "<group>"; };
@@ -353,6 +368,23 @@
 			name = TemplateMethod;
 			sourceTree = "<group>";
 		};
+		F92744661DA0A64400C8491D /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				F92744671DA0A69700C8491D /* AbstractCommand.h */,
+				F92744681DA0A69700C8491D /* AbstractCommand.m */,
+				F927446D1DA0A7C000C8491D /* ConcreteCommand.h */,
+				F927446E1DA0A7C000C8491D /* ConcreteCommand.m */,
+				F927446A1DA0A6DD00C8491D /* Receiver.h */,
+				F927446B1DA0A6DD00C8491D /* Receiver.m */,
+				F92744701DA0A93E00C8491D /* Invoker.h */,
+				F92744711DA0A93E00C8491D /* Invoker.m */,
+				F92744731DA0AA9B00C8491D /* CommandClient.h */,
+				F92744741DA0AA9B00C8491D /* CommandClient.m */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
 		F92FD93F1D59D3E500D913E1 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,6 +549,7 @@
 				F994A6441D937A8D006E1DA6 /* Proxy */,
 				F9B3F1811D94BD4500885336 /* Observer */,
 				F925D2911D98AFD7001C9894 /* TemplateMethod */,
+				F92744661DA0A64400C8491D /* Command */,
 				F9D68C1E1D506D44002E60A0 /* Supporting Files */,
 			);
 			path = "Design Pattern";
@@ -675,6 +708,7 @@
 				F96F126A1D542E3B0083195D /* Director.m in Sources */,
 				F93160B61D5860E000201B59 /* ConcreteImplementorB.m in Sources */,
 				F9D68C411D50706A002E60A0 /* OperationMul.m in Sources */,
+				F92744691DA0A69700C8491D /* AbstractCommand.m in Sources */,
 				F93160BF1D58627800201B59 /* RefinedAbstraction.m in Sources */,
 				F90EB3B51D51D75C00CCDD8D /* FactoryMethodClient.m in Sources */,
 				F90EB3D71D51ED4900CCDD8D /* DataAccess.m in Sources */,
@@ -720,7 +754,10 @@
 				F9D68C231D506D44002E60A0 /* AppDelegate.m in Sources */,
 				F9D68C201D506D44002E60A0 /* main.m in Sources */,
 				F90EB3C51D51E7FA00CCDD8D /* SqlServerUser.m in Sources */,
+				F92744721DA0A93E00C8491D /* Invoker.m in Sources */,
+				F927446F1DA0A7C000C8491D /* ConcreteCommand.m in Sources */,
 				F9D68C471D507126002E60A0 /* OperationFactory.m in Sources */,
+				F92744751DA0AA9B00C8491D /* CommandClient.m in Sources */,
 				F92FD94E1D59D5DB00D913E1 /* Context.m in Sources */,
 				F907FAB71D62F6DC0068004E /* Composite.m in Sources */,
 				F9D68C441D5070AD002E60A0 /* OperationDiv.m in Sources */,
@@ -728,6 +765,7 @@
 				F90EB3B21D51D67600CCDD8D /* VolenteerFactory.m in Sources */,
 				F9B3F18B1D94C16300885336 /* ConcreteObserver.m in Sources */,
 				F90EB3D11D51EA8F00CCDD8D /* SqlServerFactory.m in Sources */,
+				F927446C1DA0A6DD00C8491D /* Receiver.m in Sources */,
 				F9D68C4A1D50737C002E60A0 /* SampleFactroyClient.m in Sources */,
 				F90EB3CE1D51E94C00CCDD8D /* AccessDepartment.m in Sources */,
 				F907FAB11D62F4B20068004E /* Leaf.m in Sources */,
