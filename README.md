@@ -15,4 +15,5 @@
 - 12. FlyWeight
 - 13. Proxy
 - 14. Observer
-- 15. TemplateMethod
+- 15. Template Method
+- 16. Command
